@@ -2,6 +2,8 @@
 
 # CivicProbe
 
+*Built for LexHack 2026*
+
 **The law changed. Did the software?**
 
 Delta-directed conformance testing of citizen-facing software against a versioned, source-linked policy oracle.
@@ -13,6 +15,8 @@ Delta-directed conformance testing of citizen-facing software against a versione
 ![TypeScript](https://img.shields.io/badge/TypeScript-strict-3178C6.svg)
 ![Playwright](https://img.shields.io/badge/Playwright-1.56-2EAD33.svg)
 ![Tests](https://img.shields.io/badge/tests-56%20unit%20%2B%2021%20e2e-5BAA8E.svg)
+
+### [Try it live: civicprobe.vercel.app](https://civicprobe.vercel.app/)
 
 <img src="docs/images/overview.png" alt="CivicProbe home page: a taxpayer check showing that a calculator is still using last year's tax law" width="900">
 
@@ -300,6 +304,8 @@ calls and no external assets. Everything runs in the visitor's browser, includin
 re-executes the bundled engine.
 
 ### Vercel (recommended)
+
+Live at **https://civicprobe.vercel.app/**
 
 1. Push this repository to GitHub.
 2. In Vercel: **Add New → Project → Import** `Abdullah49645/civicprobe`.

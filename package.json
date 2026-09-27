@@ -36,5 +36,6 @@
   "bugs": {
     "url": "https://github.com/Abdullah49645/civicprobe/issues"
   },
-  "author": "Abdullah (https://github.com/Abdullah49645)"
+  "author": "Abdullah (https://github.com/Abdullah49645)",
+  "homepage": "https://civicprobe.vercel.app/"
 }
