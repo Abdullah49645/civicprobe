@@ -1,0 +1,168 @@
+{
+  "scenarios": {
+    "tax-stale-rate": {
+      "runId": "run_61699c2c3e615ef0",
+      "planId": "plan_0f0262b6e041",
+      "resultDigest": "a458de097057de3e3599c17c69255c95a4f10c0ee4c00c50e99fb5096ee36a65",
+      "verdict": "DISCREPANCY",
+      "counts": {
+        "CONFORMANT": 40,
+        "DISCREPANCY": 6,
+        "UNDETERMINED": 0,
+        "ASSUMPTION_MISMATCH": 0,
+        "NOT_UPDATED": 0,
+        "EXECUTION_FAILURE": 0
+      },
+      "executions": 81,
+      "pageLoads": 84,
+      "durationMs": 12574,
+      "recordedAt": "2026-09-26T10:30:07.333Z"
+    },
+    "tax-correct": {
+      "runId": "run_6ec13b30985c93a9",
+      "planId": "plan_0f0262b6e041",
+      "resultDigest": "a12a215908bf87235776ed0341e34f74127901dd62c787725abb8904ab680e04",
+      "verdict": "CONFORMANT",
+      "counts": {
+        "CONFORMANT": 46,
+        "DISCREPANCY": 0,
+        "UNDETERMINED": 0,
+        "ASSUMPTION_MISMATCH": 0,
+        "NOT_UPDATED": 0,
+        "EXECUTION_FAILURE": 0
+      },
+      "executions": 46,
+      "pageLoads": 48,
+      "durationMs": 6962,
+      "recordedAt": "2026-09-26T10:30:14.429Z"
+    },
+    "tax-legacy-surcharge": {
+      "runId": "run_2b426b5fc9ab7c76",
+      "planId": "plan_0f0262b6e041",
+      "resultDigest": "2e4965c3a308c0f54aa07900cacb8009658c8030723bcab0280908a53a901a8a",
+      "verdict": "DISCREPANCY",
+      "counts": {
+        "CONFORMANT": 42,
+        "DISCREPANCY": 4,
+        "UNDETERMINED": 0,
+        "ASSUMPTION_MISMATCH": 0,
+        "NOT_UPDATED": 0,
+        "EXECUTION_FAILURE": 0
+      },
+      "executions": 57,
+      "pageLoads": 60,
+      "durationMs": 8558,
+      "recordedAt": "2026-09-26T10:30:23.050Z"
+    },
+    "tax-missing-band": {
+      "runId": "run_98334ee8838dc84e",
+      "planId": "plan_0f0262b6e041",
+      "resultDigest": "0881d30b5b9ea9f4e543fef97204d35f619daba2c770683ac67e8d85ac1c89cd",
+      "verdict": "DISCREPANCY",
+      "counts": {
+        "CONFORMANT": 35,
+        "DISCREPANCY": 11,
+        "UNDETERMINED": 0,
+        "ASSUMPTION_MISMATCH": 0,
+        "NOT_UPDATED": 0,
+        "EXECUTION_FAILURE": 0
+      },
+      "executions": 98,
+      "pageLoads": 101,
+      "durationMs": 14062,
+      "recordedAt": "2026-09-26T10:30:37.202Z"
+    },
+    "tax-ignores-year": {
+      "runId": "run_58cd2739e42930b0",
+      "planId": "plan_0f0262b6e041",
+      "resultDigest": "c06a37e5c76fb0fed1c45e98c4342ae51247ff78e01972760790a52cb49a1410",
+      "verdict": "DISCREPANCY",
+      "counts": {
+        "CONFORMANT": 8,
+        "DISCREPANCY": 38,
+        "UNDETERMINED": 0,
+        "ASSUMPTION_MISMATCH": 0,
+        "NOT_UPDATED": 0,
+        "EXECUTION_FAILURE": 0
+      },
+      "executions": 105,
+      "pageLoads": 108,
+      "durationMs": 15166,
+      "recordedAt": "2026-09-26T10:30:52.448Z"
+    },
+    "tax-branch-typo": {
+      "runId": "run_ce078b4a4973b9e9",
+      "planId": "plan_0f0262b6e041",
+      "resultDigest": "6096fb31326d3cad3e9727a2f03fe4a74b60af34806dba31032945d993559a37",
+      "verdict": "DISCREPANCY",
+      "counts": {
+        "CONFORMANT": 45,
+        "DISCREPANCY": 1,
+        "UNDETERMINED": 0,
+        "ASSUMPTION_MISMATCH": 0,
+        "NOT_UPDATED": 0,
+        "EXECUTION_FAILURE": 0
+      },
+      "executions": 91,
+      "pageLoads": 94,
+      "durationMs": 13050,
+      "recordedAt": "2026-09-26T10:31:05.589Z"
+    },
+    "tax-not-updated": {
+      "runId": "run_7935209223f804de",
+      "planId": "plan_0f0262b6e041",
+      "resultDigest": "529c4a1bb89f7dfad1792a3946a1d65e70ea86efce262e99dda0da8908bfa540",
+      "verdict": "NOT_UPDATED",
+      "counts": {
+        "CONFORMANT": 0,
+        "DISCREPANCY": 0,
+        "UNDETERMINED": 0,
+        "ASSUMPTION_MISMATCH": 0,
+        "NOT_UPDATED": 46,
+        "EXECUTION_FAILURE": 0
+      },
+      "executions": 46,
+      "pageLoads": 1,
+      "durationMs": 232,
+      "recordedAt": "2026-09-26T10:31:05.930Z"
+    },
+    "waiver-stale-age": {
+      "runId": "run_4f550358786dccb0",
+      "planId": "plan_0ae0bdde2162",
+      "resultDigest": "b52b176a775aca74a302d864e537b5b7bdddccbec6d64105e955d30f9e87cace",
+      "verdict": "DISCREPANCY",
+      "counts": {
+        "CONFORMANT": 21,
+        "DISCREPANCY": 14,
+        "UNDETERMINED": 0,
+        "ASSUMPTION_MISMATCH": 0,
+        "NOT_UPDATED": 0,
+        "EXECUTION_FAILURE": 0
+      },
+      "executions": 93,
+      "pageLoads": 96,
+      "durationMs": 13244,
+      "recordedAt": "2026-09-26T10:31:19.225Z"
+    },
+    "waiver-correct": {
+      "runId": "run_4da5a857364d8424",
+      "planId": "plan_0ae0bdde2162",
+      "resultDigest": "b10c2cde030795a3a383151711b12a358ffa8948c5f375afbdc12131d0ac4d3f",
+      "verdict": "CONFORMANT",
+      "counts": {
+        "CONFORMANT": 35,
+        "DISCREPANCY": 0,
+        "UNDETERMINED": 0,
+        "ASSUMPTION_MISMATCH": 0,
+        "NOT_UPDATED": 0,
+        "EXECUTION_FAILURE": 0
+      },
+      "executions": 35,
+      "pageLoads": 37,
+      "durationMs": 5144,
+      "recordedAt": "2026-09-26T10:31:24.442Z"
+    }
+  },
+  "runner": "playwright 1.56.0 / chromium 141.0.7390.37 / node v22.22.2",
+  "generatedBy": "scripts/evidence.ts"
+}

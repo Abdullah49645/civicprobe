@@ -1,0 +1,22 @@
+Income Tax Ordinance, 2001 — First Schedule, Part I, Division I
+Rates of tax for individuals whose income under the head "Salary" exceeds
+seventy-five per cent of taxable income, as substituted by the Finance Act, 2026
+(effective 1 July 2026, Tax Year 2027).
+
+Encoding source: Finance Bill, 2026 (Ministry of Finance), clause amending the
+First Schedule salaried table; confirmed unchanged as enacted by KPMG Taseer
+Hadi & Co., "A Brief of Finance Act, 2026" (July 2026), First Schedule changes
+table and Tax Rate Card. This excerpt reproduces the statutory table only.
+
+S. No. | Taxable income | Rate of tax
+1 | Where taxable income does not exceed Rs. 600,000 | 0%
+2 | Where taxable income exceeds Rs. 600,000 but does not exceed Rs. 1,200,000 | 1% of the amount exceeding Rs. 600,000
+3 | Where taxable income exceeds Rs. 1,200,000 but does not exceed Rs. 2,200,000 | Rs. 6,000 plus 11% of the amount exceeding Rs. 1,200,000
+4 | Where taxable income exceeds Rs. 2,200,000 but does not exceed Rs. 3,200,000 | Rs. 116,000 plus 20% of the amount exceeding Rs. 2,200,000
+5 | Where taxable income exceeds Rs. 3,200,000 but does not exceed Rs. 4,100,000 | Rs. 316,000 plus 25% of the amount exceeding Rs. 3,200,000
+6 | Where taxable income exceeds Rs. 4,100,000 but does not exceed Rs. 5,600,000 | Rs. 541,000 plus 29% of the amount exceeding Rs. 4,100,000
+7 | Where taxable income exceeds Rs. 5,600,000 but does not exceed Rs. 7,000,000 | Rs. 976,000 plus 32% of the amount exceeding Rs. 5,600,000
+8 | Where taxable income exceeds Rs. 7,000,000 | Rs. 1,424,000 plus 35% of the amount exceeding Rs. 7,000,000
+
+Section 4AB surcharge: withdrawn for persons deriving income chargeable under
+the head "Salary" (Finance Act, 2026).

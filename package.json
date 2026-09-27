@@ -1,0 +1,40 @@
+{
+  "name": "civicprobe",
+  "version": "2.0.0",
+  "private": true,
+  "description": "Delta-directed conformance testing of citizen-facing software against a versioned policy oracle. The law changed. Did the software?",
+  "type": "module",
+  "license": "MIT",
+  "engines": {
+    "node": "22.x"
+  },
+  "scripts": {
+    "typecheck": "tsc --noEmit -p tsconfig.json",
+    "test": "npm run test:unit && npm run test:e2e",
+    "test:unit": "tsx --test packages/*/src/*.test.ts",
+    "test:e2e": "tsx --test tests/e2e/*.spec.ts",
+    "benchmark": "tsx scripts/benchmark.ts",
+    "benchmark:check": "tsx scripts/benchmark.ts --quick",
+    "evidence": "tsx scripts/evidence.ts",
+    "build": "tsx scripts/build-ui.ts",
+    "verify": "npm run typecheck && npm run test:unit && npm run benchmark:check && npm run build",
+    "live": "tsx scripts/live.ts"
+  },
+  "dependencies": {
+    "playwright": "1.56.0"
+  },
+  "devDependencies": {
+    "@types/node": "22.20.4",
+    "esbuild": "0.28.2",
+    "tsx": "4.23.15",
+    "typescript": "6.0.3"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Abdullah49645/civicprobe.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Abdullah49645/civicprobe/issues"
+  },
+  "author": "Abdullah (https://github.com/Abdullah49645)"
+}
